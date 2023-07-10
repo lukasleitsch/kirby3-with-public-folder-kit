@@ -10,6 +10,18 @@ Icon
 /storage/media/*
 !/storage/media/index.html
 
+# Lock files
+# ---------------
+
+.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
@@ -40,10 +52,11 @@ Icon
 
 # License
 # ---------------
-/site/config/.license
+
+/storage/.license
+
 
 # Composer
-# ---------------
-# https://getkirby.com/docs/cookbook/setup/composer#starting-a-new-project
-/kirby
+# ------------
+
 /vendor
