@@ -56,7 +56,8 @@ Icon
 /storage/.license
 
 
-# Composer
+# Dependencies
 # ------------
 
 /vendor
+/node_modules
