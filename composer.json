@@ -12,7 +12,7 @@
   "homepage": "https://leitsch.org",
   "require": {
     "php": ">=8.2.0 <8.3.0",
-    "getkirby/cms": "^3.9"
+    "getkirby/cms": "^4.0"
   },
   "require-dev": {
     "laravel/pint": "^1.10"
